@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import './Button.css';
 const ButtonStyle = styled.button`
 
   font: inherit;
