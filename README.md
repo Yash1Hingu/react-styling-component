@@ -55,3 +55,17 @@ function App() {
 - In our React code, we simply render the Button component twice with different props to create two different styled buttons. The end result is that we have two buttons with different styles based on the primary prop, all without having to write any separate CSS files.
 
 - [styled-components](https://styled-components.com/)
+
+### use media query
+- @media query use in style-components:
+```js
+const ButtonStyle = styled.button`
+
+  width: 100%;
+
+  @media (min-width: 550px){
+    width: auto;
+  }
+`
+```
+- when width < 550px then width 100%.
