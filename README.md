@@ -69,3 +69,14 @@ const ButtonStyle = styled.button`
 `
 ```
 - when width < 550px then width 100%.
+
+## CSS Module
+- (What is CSS Module? -by CSS-tricks)[https://css-tricks.com/css-modules-part-1-need/]
+- (How to Add CSS Module ?)[https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/#buttonmodulecss]
+- CSS Modules is a way to write modular CSS code that only affects specific components.
+- With CSS Modules, each component has its own unique class names that are generated at build time and scoped to that component.
+- This means that CSS rules written for one component won't accidentally affect other components.
+- CSS Modules can help make your code more maintainable and scalable, because you can organize your CSS code on a per-component basis.
+- CSS Modules are particularly useful in large codebases with multiple developers working on the same code, because they help prevent naming collisions and reduce the risk of conflicts between different parts of the code.
+- CSS Modules are supported in popular front-end frameworks like React, Vue, and Angular.
+
