@@ -80,3 +80,20 @@ const ButtonStyle = styled.button`
 - CSS Modules are particularly useful in large codebases with multiple developers working on the same code, because they help prevent naming collisions and reduce the risk of conflicts between different parts of the code.
 - CSS Modules are supported in popular front-end frameworks like React, Vue, and Angular.
 
+### Which Approach is Best ? Direct CSS,styled-components or CSS modules.
+- Direct CSS files: This is a traditional approach where you create separate CSS files and import them into your React components. This can be a simple and familiar approach, but it can also lead to global CSS styles that can affect other components unintentionally.
+
+- styled-components: This is a library that allows you to write CSS-in-JS, meaning that you write your CSS styles directly inside your React components using JavaScript. This can be a powerful way to create dynamic and reusable styles, but it can also be challenging to manage and maintain.
+
+- CSS Modules: This is a feature that allows you to write modular CSS code that only affects specific components. With CSS Modules, each component has its own unique class names that are generated at build time and scoped to that component. This makes sure that each component has its own unique style, and won't accidentally affect other components.
+
+- Out of these three options, I Prefer CSS Modules is generally considered the best approach for managing CSS in React, because it provides a simple and scalable way to write modular and scoped CSS code. It also works well with other tools and libraries in the React ecosystem. However, the best approach may vary depending on the specific needs and goals of your project.
+
+
+
+
+
+
+
+
+
