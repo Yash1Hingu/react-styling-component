@@ -1,8 +1,22 @@
 .goal-item {
+  display: flex;
   margin: 1rem 0;
   background: #078b00;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   color: white;
   padding: 1rem 2rem;
   cursor: pointer;
+  align-items: center;
+}
+.goal-item button{
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+  font-weight: 800;
+  font-size: 1rem;
+  color: white;
+}
+.goal-item button:hover {
+  background-color: #056700;
+  border-radius: 50%;
 }

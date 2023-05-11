@@ -11,8 +11,9 @@ const CourseGoalItem = props => {
   };
 
   return (
-    <li className="goal-item" onClick={deleteHandler}>
+    <li className="goal-item">
       {props.children}
+      <button onClick={deleteHandler}>X</button>
     </li>
   );
 };
